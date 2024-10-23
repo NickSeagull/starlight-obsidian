@@ -20,7 +20,7 @@ export async function transformMarkdownToString(
     aliases: file.data.aliases,
     content: String(file),
     skip: file.data.skip === true,
-    type: file.data.isMdx === true ? 'mdx' : 'markdown',
+    type: 'mdx',
   }
 }
 
